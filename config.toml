@@ -1,0 +1,58 @@
+baseURL = "https://nicho1as.wang/"
+languageCode = "en-us"
+title = "Nicholas Wang"
+theme = "smol"
+
+# Parameters
+[params]
+    subtitle = ""
+    dateFmt = "02.01.2006 15:04"
+
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+
+  [[menu.main]]
+        identifier = "articles"
+        name = "Articles"
+        url = "/articles/"
+        weight = 2
+
+  [[menu.main]]
+        identifier = "about"
+        name = "About Me"
+        url = "/about"
+        weight = 2
+
+  [[menu.main]]
+        identifier = "dn42"
+        name = "DN42"
+        url = "/dn42"
+        weight = 3
+
+  [[menu.main]]
+        identifier = "gpg"
+        name = "GPG Key"
+        url = "/gpg"
+        weight = 4
+
+# Footer
+#  [[menu.footer]]
+#        name = "GitHub"
+#        url = "https://github.com/nicholascw"
+#        weight = 1
+
+#    [[menu.footer]]
+#        name = "Telegram"
+#        url = "https://t.me/nicholascw"
+#        weight = 2
+
+#    [[menu.footer]]
+#        name = "me@nicho1as.wang"
+#        url = "mailto:me@nicho1as.wang"
+#        weight = 2
+
