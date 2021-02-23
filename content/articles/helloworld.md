@@ -8,10 +8,10 @@ To whom it may concern,
 
 Hi!
 
-It is been a long time seems my last update on my blog. For those who've been 
+It is been a long time since my last update on my blog. For those who've been 
 here before, you may noticed a radical change here. **Yes, you are in the right place.**
-Due to the fact that my last generateion blog system was built on an 
-under-maintained PHP open source CMS platform and hosted on an Arch Linux system 
+Due to the fact that my last generation blog system was built on top of an 
+under-maintained PHP open source CMS platform and hosted with an Arch Linux system 
 which had its package manager database accidentally delete sometime in 2019, 
 I finally decide to discard the whole system and host a new static version of 
 my blog for the sake of simplicity, robustness, availability and reliability. 
