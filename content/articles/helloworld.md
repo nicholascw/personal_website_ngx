@@ -24,7 +24,7 @@ have an ETA for that. I believe there is also an archived copy of my old blog on
 [archive.org](https://web.archive.org/web/20210208213630/https://www.nicho1as.wang/), 
 you may want to check it out if you are looking for a specific old blog post.
 
-Thank you all for your visiting!
+Thank you all for your visit, and hope you have a fresh start in 2021 just like this blog!
 
 --
 Nicholas Wang
