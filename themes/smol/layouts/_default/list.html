@@ -7,19 +7,28 @@
 			{{ with .Content }}<div>{{ . }}</div>{{ end }}
 		</div>
 		{{ end }}
-		
-		<ul>
-		    {{ range .Paginator.Pages }}
-		    <li>
-		        <div class="post-title">
-				{{ if eq $listtitle "Posts" }}
-				    {{ .Date.Format "2006-01-02" }} <a href="{{ .RelPermalink }}">{{.Title }}</a>
+
+		<ul style="list-style-type:'~> '">
+			{{ range .Paginator.Pages }}
+			<li>
+				<div class="post-title">
+				{{ if eq $listtitle "Articles" }}
+					{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}: <a href="{{ .RelPermalink }}">{{.Title }}</a>
 				{{ else }}
-				    <a href="{{ .RelPermalink }}">{{.Title }}</a>
+					<a href="{{ .RelPermalink }}">{{.Title }}</a>
 				{{ end }}
-		        </div>
-		    </li>
-		    {{ end }}
+				<br>
+				<div style="font-size: 90%; margin-left: 3em; margin-right: 3em;">
+					<br>
+					{{ .Summary }}
+					{{ if .Truncated }}
+						<a href="{{ .Permalink }}">Read more...</a>
+					{{ end }}
+				</div>
+				<br>
+				</div>
+			</li>
+			{{ end }}
 		</ul>
 		{{ partial "pagination.html" . }}
 	</main>

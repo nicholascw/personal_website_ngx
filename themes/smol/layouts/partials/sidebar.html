@@ -1,12 +1,12 @@
 <aside>
 	<div>
 		<div>
-			<h3>LATEST ARTICLES</h3>
+			<h3>Latest Articles</h3>
 		</div>
 		<div>
-			<ul>
+			<ul style="list-style-type: '~> '">
 				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
-				<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+				<li>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}: <a href="{{ .RelPermalink }}">{{.Title }}</a></li>
 				{{ end }}
 			</ul>
 		</div>

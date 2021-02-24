@@ -23,12 +23,6 @@ theme = "smol"
         weight = 2
 
   [[menu.main]]
-        identifier = "about"
-        name = "About Me"
-        url = "/about"
-        weight = 2
-
-  [[menu.main]]
         identifier = "dn42"
         name = "DN42"
         url = "/dn42"
