@@ -4,7 +4,7 @@
 			<h3>Latest Articles</h3>
 		</div>
 		<div>
-			<ul style="list-style-type: none">
+			<ul class="article-list">
 				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 				<li>{{ .Date.Format (default "2006-01-02 15:04:05" .Site.Params.dateFmt) }}: <a href="{{ .RelPermalink }}">{{.Title }}</a></li>
 				{{ end }}
