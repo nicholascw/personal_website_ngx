@@ -22,11 +22,11 @@ theme = "smol"
         url = "/articles/"
         weight = 2
 
-  [[menu.main]]
-        identifier = "dn42"
-        name = "DN42"
-        url = "/dn42"
-        weight = 3
+#  [[menu.main]]
+#        identifier = "cv"
+#        name = "CV"
+#        url = "cv.pdf"
+#        weight = 3
 
   [[menu.main]]
         identifier = "gpg"
@@ -34,19 +34,25 @@ theme = "smol"
         url = "/gpg"
         weight = 4
 
+  [[menu.main]]
+        identifier = "dn42"
+        name = "DN42"
+        url = "/dn42"
+        weight = 5
+
 # Footer
-#  [[menu.footer]]
-#        name = "GitHub"
-#        url = "https://github.com/nicholascw"
-#        weight = 1
+  [[menu.footer]]
+        name = "GitHub"
+        url = "https://github.com/nicholascw"
+        weight = 1
 
-#    [[menu.footer]]
-#        name = "Telegram"
-#        url = "https://t.me/nicholascw"
-#        weight = 2
+    [[menu.footer]]
+        name = "Telegram"
+        url = "https://t.me/nicholascw"
+        weight = 2
 
-#    [[menu.footer]]
-#        name = "me@nicho1as.wang"
-#        url = "mailto:me@nicho1as.wang"
-#        weight = 2
+    [[menu.footer]]
+        name = "E-mail"
+        url = "mailto:me@nicho1as.wang"
+        weight = 3
 

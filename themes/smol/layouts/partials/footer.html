@@ -1,9 +1,9 @@
 <footer>
 	<br>
 	<hr>
-	<span>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}"><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a>.
+	<span>&copy; {{ now.Year }} <a href="{{ .Site.BaseURL }}"><b>{{ if .Site.Copyright }}{{ .Site.Copyright }}{{ else }}{{ .Site.Title }}{{ end }}</b></a> || Find me with [
 	{{- range .Site.Menus.footer }}
-	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>.
-        {{- end }}
+	<a href="{{ .URL }}"><b>{{ .Name }}</b></a>
+        {{- end }} ]
 	</span>
 </footer>
