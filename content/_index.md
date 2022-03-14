@@ -31,7 +31,7 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 # Publication~~s~~
 
-- [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol.](https://doi.org/10.1145/3485447.3512228)
+- [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol.](arc-www22.pdf)
 > Proceedings of **The ACM Web Conference (WWW)** *April, 2022.*
 
 # Involvements
