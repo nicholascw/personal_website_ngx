@@ -6,7 +6,7 @@ draft: false
 
 # Biography
 
-I am a first-year Master student in [Computer Science](https://cs.illinois.edu) department of [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by [Prof. Gang Wang](https://gangw.cs.illinois.edu). My  research interests include security and privacy in general, networking, measurement, censorship and cybercrime, and embedded systems. Apart from my profession, I my enthusiasm also covers Aviations, Motorsports, Photography, Mechanical Engineering, and some other acativities that overlaps with other engineering and sciences fields.
+I am a first-year Master student in [Computer Science](https://cs.illinois.edu) department of [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by [Prof. Gang Wang](https://gangw.cs.illinois.edu). My  research interests include security and privacy in general, networking, measurement, censorship and cybercrime, and embedded systems. Apart from my profession, my enthusiasm also covers Aviations, Motorsports, Photography, Mechanical Engineering, and some other acativities that overlaps with other engineering and sciences fields.
 
 # Education
 
