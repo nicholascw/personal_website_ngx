@@ -27,6 +27,7 @@ I am a second-year Master student in [Computer Science](https://cs.illinois.edu)
 
 # Teaching
 
+Fall 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.edu/cs461/fa2022/) -- **Teaching Assistant**
 Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.edu/cs461/sp2022/) -- **Teaching Assistant**
 
 # Publication~~s~~
