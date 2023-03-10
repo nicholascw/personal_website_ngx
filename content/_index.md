@@ -6,7 +6,7 @@ draft: false
 
 # Biography
 
-I am a second-year Master student in [Computer Science](https://cs.illinois.edu) department of [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by [Prof. Gang Wang](https://gangw.cs.illinois.edu). My  research interests include security and privacy in general, networking, measurement, censorship and cybercrime, and embedded systems. Apart from my profession, my enthusiasm also covers Aviations, Motorsports, Photography, Mechanical Engineering, and some other acativities that overlaps with other engineering and sciences fields. I am a FAA-licensed private pilot. You may also [find my CV here](/cv.pdf).
+I am a second-year Master of Science student in [Computer Science](https://cs.illinois.edu) department of [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by [Prof. Gang Wang](https://gangw.cs.illinois.edu). My  research interests include security and privacy in general, networking, measurement, censorship and cybercrime, and embedded systems. Apart from my profession, my enthusiasm also covers Aviations, Motorsports, Photography, Mechanical Engineering, and some other acativities that overlaps with other engineering and sciences fields. I am a FAA-licensed private pilot. You may also [find my CV here](/cv.pdf).
 
 # Education
 
@@ -28,19 +28,20 @@ I am a second-year Master student in [Computer Science](https://cs.illinois.edu)
 # Teaching
 
 Fall 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.edu/cs461/fa2022/) -- **Teaching Assistant**
+
 Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.edu/cs461/sp2022/) -- **Teaching Assistant**
+
 
 # Publication~~s~~
 
-- [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol.](arc-www22.pdf)
+- [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol](arc-www22.pdf)
 > Proceedings of **The ACM Web Conference (WWW)** *April, 2022.*
 
-# Involvements
+# Other Involvements
 
 - Develop proprietary embedded firmware used in production since Dec, 2016;
 - Discovered 5 university-wide or course-specific vulnerabilities with PoC over 4-year undergraduate studies;
 - Systematically conduct Computer Security researches since July, 2020;
 - Started [b23.wtf](https://b23.wtf) Redirecting Service which removes user-tracking parameters on Feb, 2021;
 - Start Competing in CTF games together with [SIGPwny](https://sigpwny.com) since Feb, 2022; Earned 436pts for team in DiceCTF '22[[1]](https://ctf.dicega.ng/profile/f0105cc2-7825-47db-a69e-3c77c6d3eabe)[[2]](https://ctftime.org/event/1541);
-- Start contributing on [Cadmium](https://github.com/Maccraft123/Cadmium) project for running native ArchlinuxARM on Lenovo Chromebook Duet, since Feb 2022.
-
+- Contribution to [Cadmium](https://github.com/Maccraft123/Cadmium) project for running native ArchlinuxARM on Lenovo Chromebook Duet.
