@@ -6,15 +6,23 @@ draft: false
 
 # Biography
 
-I am a second-year Master of Science student in [Computer Science](https://cs.illinois.edu) department of [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by [Prof. Gang Wang](https://gangw.cs.illinois.edu). My  research interests include security and privacy in general, networking, measurement, censorship and cybercrime, and embedded systems. Apart from my profession, my enthusiasm also covers Aviations, Motorsports, Photography, Mechanical Engineering, and some other acativities that overlaps with other engineering and sciences fields. I am a FAA-licensed private pilot. You may also [find my CV here](/cv.pdf).
+I am a first-year PhD student in [Computer Science](https://cs.illinois.edu) department of [University of Illinois at Urbana-Champaign](https://illinois.edu), advised by [Prof. Gang Wang](https://gangw.cs.illinois.edu). My  research interests include security and privacy in general, networking, measurement, censorship and cybercrime, and embedded systems. Apart from my profession, my enthusiasm also covers Aviations, Motorsports, Photography, Mechanical Engineering, and some other acativities that overlaps with other engineering and sciences fields. I am a FAA-licensed private pilot. You may also [find my CV here](/cv.pdf).
 
 # Education
 
 > ### University of Illinois at Urbana-Champaign
 
-> Master of Science in *Computer Science* (Thesis-based)
+> Pre-Qual PhD Student in *Computer Science*
 
-> August, 2021 - May, 2023 (expected)
+> August, 2023 -
+
+
+
+> ### University of Illinois at Urbana-Champaign
+
+> Master of Science in *Computer Science*
+
+> August, 2021 - May, 2023
 
 
 > ### University of Illinois at Urbana-Champaign
