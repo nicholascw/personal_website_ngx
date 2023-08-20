@@ -45,6 +45,9 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 - [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol](arc-www22.pdf)
 > Proceedings of **The ACM Web Conference (WWW)** *April, 2022.*
 
+> __Mozilla bug bounty program__ awarded $1,000 for the __Firefox Relay Vulnerability__ *August, 2023.*
+
+
 # Other Involvements
 
 - Develop proprietary embedded firmware used in production since Dec, 2016;
