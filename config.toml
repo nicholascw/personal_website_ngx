@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Nicholas Wang"
 theme = "smol"
 
+enableGitInfo = true
+
 # Parameters
 [params]
     subtitle = ""
@@ -22,11 +24,11 @@ theme = "smol"
         url = "/articles/"
         weight = 2
 
-#  [[menu.main]]
-#        identifier = "cv"
-#        name = "CV"
-#        url = "cv.pdf"
-#        weight = 3
+  [[menu.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "cv.pdf"
+        weight = 6
 
   [[menu.main]]
         identifier = "gpg"
@@ -56,3 +58,5 @@ theme = "smol"
         url = "mailto:me@nicho1as.wang"
         weight = 3
 
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
