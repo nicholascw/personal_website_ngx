@@ -53,7 +53,7 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 # Other Involvements
 
 - Develop proprietary embedded firmware used in production since Dec, 2016;
-- Discovered 5 university-wide or course-specific vulnerabilities with PoC over 4-year undergraduate studies;
+- Discovered 5 university-wide or course-specific vulnerabilities with PoCs over 4-year undergraduate studies;
 - Systematically conduct Computer Security researches since July, 2020;
 - Started [b23.wtf](https://b23.wtf) Redirecting Service which removes user-tracking parameters on Feb, 2021;
 - Start Competing in CTF games together with [SIGPwny](https://sigpwny.com) since Feb, 2022; Earned 436pts for team in DiceCTF '22[[1]](https://ctf.dicega.ng/profile/f0105cc2-7825-47db-a69e-3c77c6d3eabe)[[2]](https://ctftime.org/event/1541);
