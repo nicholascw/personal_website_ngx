@@ -11,7 +11,7 @@ I am a first-year PhD student in [Computer Science](https://cs.illinois.edu) dep
 
 > ### University of Illinois at Urbana-Champaign
 
-> Pre-Qual PhD Student in *Computer Science*
+> PhD Student in *Computer Science* (Pre-Qual)
 
 > August, 2023 -
 
@@ -41,11 +41,15 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 # Publications
 
-- [VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks](https://nw.ci/404)
-> **Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI \'24)** *May 11-16, 2024* [DOI: 10.1145/3613904.3642027](https://doi.org/10.1145/3613904.3642027)
+- [VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks](404)
+> **Chenkai Wang**, Zhuofan Jia, Hadjer Benkraouda, Cody Zevnik, Nicholas Heuermann, Roopa Foulger, Jonathan A. Handler, Gang Wang
+
+> **Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI \'24)** *May 11-16, 2024, Honolulu, HI, USA.* [DOI: 10.1145/3613904.3642027](https://doi.org/10.1145/3613904.3642027)
 
 - [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol](arc-www22.pdf)
-> **Proceedings of the ACM Web Conference 2022 (WWW \'22)** *April 25-29, 2022.* [DOI: 10.1145/3485447.3512228](https://doi.org/10.1145/3485447.3512228)
+> **Chenkai Wang**, Gang Wang
+
+> **Proceedings of the ACM Web Conference 2022 (WWW \'22)** *April 25–29, 2022, Virtual Event, Lyon, France.* [DOI: 10.1145/3485447.3512228](https://doi.org/10.1145/3485447.3512228)
 
 > __Mozilla bug bounty program__ awarded $1,000 for the __Firefox Relay vulnerability__ *August, 2023.*
 

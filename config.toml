@@ -1,6 +1,6 @@
 baseURL = "https://nicholas.wang/"
 languageCode = "en-us"
-title = "Nicholas Wang"
+title = "Chenkai (Nicholas) Wang"
 theme = "smol"
 
 enableGitInfo = true
@@ -25,22 +25,23 @@ enableGitInfo = true
         weight = 2
 
   [[menu.main]]
-        identifier = "cv"
-        name = "CV"
-        url = "cv.pdf"
-        weight = 6
-
-  [[menu.main]]
         identifier = "gpg"
         name = "GPG Key"
         url = "/gpg"
         weight = 4
 
+#  [[menu.main]]
+#        identifier = "dn42"
+#        name = "DN42"
+#        url = "/dn42"
+#        weight = 5
+
   [[menu.main]]
-        identifier = "dn42"
-        name = "DN42"
-        url = "/dn42"
-        weight = 5
+        identifier = "cv"
+        name = "CV"
+        url = "cv.pdf"
+        weight = 6
+
 
 # Footer
   [[menu.footer]]
@@ -48,14 +49,20 @@ enableGitInfo = true
         url = "https://github.com/nicholascw"
         weight = 1
 
-    [[menu.footer]]
-        name = "Telegram"
-        url = "https://t.me/nicholascw"
+#  [[menu.footer]]
+#        name = "Telegram"
+#        url = "https://t.me/nicholascw"
+#        weight = 2
+
+  [[menu.footer]]
+        name = "Matrix"
+        url = "https://matrix.to/#/@nicholascw:matrix.org"
         weight = 2
 
-    [[menu.footer]]
+
+  [[menu.footer]]
         name = "E-mail"
-        url = "mailto:me@nicho1as.wang"
+        url = "mailto:i@nw.ci"
         weight = 3
 
 [frontmatter]
