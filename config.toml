@@ -25,9 +25,9 @@ enableGitInfo = true
         weight = 2
 
   [[menu.main]]
-        identifier = "gpg"
-        name = "GPG Key"
-        url = "/gpg"
+        identifier = "pgp"
+        name = "PGP Key"
+        url = "/pgp"
         weight = 4
 
 #  [[menu.main]]
