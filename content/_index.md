@@ -41,7 +41,7 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 # Publications
 
-- [VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks](404)
+- [VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks](verisms-chi24.pdf)
 > <u>**Chenkai Wang**</u>, Zhuofan Jia, Hadjer Benkraouda, Cody Zevnik, Nicholas Heuermann, Roopa Foulger, Jonathan A. Handler, Gang Wang
 
 > **Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI \'24)** *May 11-16, 2024, Honolulu, HI, USA.* [DOI: 10.1145/3613904.3642027](https://doi.org/10.1145/3613904.3642027)
