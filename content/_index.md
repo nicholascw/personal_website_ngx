@@ -42,16 +42,20 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 # Publications
 
 - [True Attacks, Attack Attempts, or Benign Triggers? An Empirical Measurement of Network Alerts in a Security Operations Center](404)
+
 >  Limin Yang, Zhi Chen, <b><u>Chenkai Wang</u></b>, Zhenning Zhang, Sushruth Booma, Phuong Cao, Constantin Adam, Alex Withers, Zbigniew Kalbarczyk, Ravishankar K. Iyer, Gang Wang
 
 > **Proceedings of The 33rd USENIX Security Symposium (USENIX Security \'24)** *August 14-16, 2024, Philadelphia, PA, USA.* [DOI: pending](404)
 
 - [VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks](verisms-chi24.pdf)
+
 > **<u>Chenkai Wang</u>**, Zhuofan Jia, Hadjer Benkraouda, Cody Zevnik, Nicholas Heuermann, Roopa Foulger, Jonathan A. Handler, Gang Wang
 
 > **Proceedings of the CHI Conference on Human Factors in Computing Systems (CHI \'24)** *May 11-16, 2024, Honolulu, HI, USA.* [DOI: 10.1145/3613904.3642027](https://doi.org/10.1145/3613904.3642027)
 
+
 - [Revisiting Email Forwarding Security under the Authenticated Received Chain Protocol](arc-www22.pdf)
+
 > **<u>Chenkai Wang</u>**, Gang Wang
 
 > **Proceedings of the ACM Web Conference 2022 (WWW \'22)** *April 25–29, 2022, Virtual Event, Lyon, France.* [DOI: 10.1145/3485447.3512228](https://doi.org/10.1145/3485447.3512228)
