@@ -5,6 +5,10 @@ theme = "smol"
 
 enableGitInfo = true
 
+[security]
+  enableInlineShortcodes = true
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', 'pandoc']
 
 [markup]
   defaultMarkdownHandler = 'pandoc'
