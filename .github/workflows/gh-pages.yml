@@ -16,8 +16,11 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      - name: Install asciidoctor
-        run: sudo apt install -y asciidoctor
+#      - name: Install asciidoctor
+#        run: sudo apt install -y asciidoctor
+
+      - name: Install pandoc
+        run: sudo apt install -y pandoc
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
