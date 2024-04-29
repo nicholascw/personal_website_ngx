@@ -7,7 +7,7 @@ enableGitInfo = true
 
 
 [markup]
-  defaultMarkdownHandler = 'asciidocext'
+  defaultMarkdownHandler = 'org'
 
 # Parameters
 [params]
