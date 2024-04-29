@@ -42,7 +42,7 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 # Publications
 
 - [True Attacks, Attack Attempts, or Benign Triggers? An Empirical Measurement of Network Alerts in a Security Operations Center](404)
->  Limin Yang, Zhi Chen, **<u>Chenkai Wang</u>**, Zhenning Zhang, Sushruth Booma, Phuong Cao, Constantin Adam, Alex Withers, Zbigniew Kalbarczyk, Ravishankar K. Iyer, Gang Wang
+>  Limin Yang, Zhi Chen, <b><u>Chenkai Wang</u></b>, Zhenning Zhang, Sushruth Booma, Phuong Cao, Constantin Adam, Alex Withers, Zbigniew Kalbarczyk, Ravishankar K. Iyer, Gang Wang
 
 > **Proceedings of The 33rd USENIX Security Symposium (USENIX Security \'24)** *August 14-16, 2024, Philadelphia, PA, USA.* [DOI: pending](404)
 
