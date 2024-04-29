@@ -5,6 +5,10 @@ theme = "smol"
 
 enableGitInfo = true
 
+
+[markup]
+  defaultMarkdownHandler = 'asciidocext'
+
 # Parameters
 [params]
     subtitle = ""
