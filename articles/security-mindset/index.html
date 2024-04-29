@@ -3,52 +3,59 @@
 <a href=/><b>Home</b></a> |
 <a href=/articles/><b>Articles</b></a> |
 <a href=/pgp><b>PGP Key</b></a> |
-<a href=/cv.pdf><b>CV</b></a> |</nav></p></header><main><article><h1>Security Mindset: or say "Engineering Engineering"</h1><b><time>Mar 10, 2023</time></b><div><p>*DISCLAIMER: THIS ARTICLE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE ARTICLE OR THE USE OR OTHER DEALINGS IN THE ARTICLE.</p><p>To begin with, this article is not a good introductory material for you to learn seucrity mindset. It is extremely biased towards the attack perspective and at the same time a piece of summary that only reflects personal experience and impression of my own.</p><p>It&rsquo;s been a long time since last time I actually tries to write an article.
+<a href=/cv.pdf><b>CV</b></a> |</nav></p></header><main><article><h1>Security Mindset: or say "Engineering Engineering"</h1><b><time>Mar 10, 2023</time></b><div>*DISCLAIMER: THIS ARTICLE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE ARTICLE OR THE USE OR OTHER DEALINGS IN THE ARTICLE.
+To begin with, this article is not a good introductory material for you to learn seucrity mindset. It is extremely biased towards the attack perspective and at the same time a piece of summary that only reflects personal experience and impression of my own.
+It's been a long time since last time I actually tries to write an article.
 However, moving along the path doing cybersecurity-related works,
 I feel that I have more and more stuff I want express, explain, and discuss with anybody who is or is not related to the field.
-I finally decided to share my very personal and impressonal understanding to the security mindset in a few words today.</p><p>I have always been saying &ldquo;I am an extremely engieenring person.&rdquo; So, what is engineering in the first place?
-According to Wikipedia, &ldquo;Engineering is the use of scientific principles to design and build machines, structures,
-and other items, including bridges, tunnels, roads, vehicles, and buildings.&rdquo;<a href=https://en.wikipedia.org/wiki/Engineering>[1]</a>
-Why does it matter? Well, if you happen to notice the title, I call security works &ldquo;Engineering Engineering.&rdquo;
-While other Engineering fields utilize their related field to build &ldquo;useful stuff&rdquo;, security people,
-tend to take what&rsquo;s already there and think how exactly can we make use of them, potentially in an unintended way.
-Whenever I have anything new in my view, it quickly goes into the following sequence:</p><p>(sorry, but it feels more comfortable for me to describe soemthing with C-style pseudo code when logic and control flow is needed):</p><pre tabindex=0><code>auto *capabilities[];
-
+I finally decided to share my very personal and impressonal understanding to the security mindset in a few words today.
+I have always been saying "I am an extremely engieenring person." So, what is engineering in the first place?
+According to Wikipedia, "Engineering is the use of scientific principles to design and build machines, structures,
+and other items, including bridges, tunnels, roads, vehicles, and buildings."[\[1\]](https://en.wikipedia.org/wiki/Engineering)
+Why does it matter? Well, if you happen to notice the title, I call security works "Engineering Engineering."
+While other Engineering fields utilize their related field to build "useful stuff", security people,
+tend to take what's already there and think how exactly can we make use of them, potentially in an unintended way.
+Whenever I have anything new in my view, it quickly goes into the following sequence:
+(sorry, but it feels more comfortable for me to describe soemthing with C-style pseudo code when logic and control flow is needed):
+```
+auto *capabilities[];
 void search(auto obj_in){
-    auto *obj = &amp;obj_in;
-    while(obj) {
-        What is *obj?
-
-        What does or can *obj do? =&gt; save into capabilities[];
-
-        What does it mean it have such capability? =&gt; develop aliases to the capability, save into capabilities[];
-            - what does it actually allowing me to to?
-            - try explain it in different ways;
-            - try identify the features of the subject and object;
-
-        How does it achieve such capability? =&gt; discover &#34;children&#34; or &#34;private properties&#34; of *obj (think it as a tree or a class);
-            - learn its internanl mechenaism;
-            - learn what does it utilized in order to achieve such capability;
-            - sometimes, what are required in order to do such capabilities? what&#39;s not required?
-
-        and, finally we fork bomb it by for(i : children)search(children);
-    }
+auto *obj = &obj_in;
+while(obj) {
+What is *obj?
+What does or can *obj do? => save into capabilities[];
+What does it mean it have such capability? => develop aliases to the capability, save into capabilities[];
+- what does it actually allowing me to to?
+- try explain it in different ways;
+- try identify the features of the subject and object;
+How does it achieve such capability? => discover "children" or "private properties" of *obj (think it as a tree or a class);
+- learn its internanl mechenaism;
+- learn what does it utilized in order to achieve such capability;
+- sometimes, what are required in order to do such capabilities? what's not required?
+and, finally we fork bomb it by for(i : children)search(children);
 }
-
+}
 int main() {
-  run search() against anything I randomly in mind;
-  wait until my brain hangs, or memory exhausted;
-  look into my capabilities[] in the end;
-  do &#34;capabilities[] engineering&#34; with my best effort;
-  return 0;
+run search() against anything I randomly in mind;
+wait until my brain hangs, or memory exhausted;
+look into my capabilities[] in the end;
+do "capabilities[] engineering" with my best effort;
+return 0;
 }
-</code></pre><p>It may be hard for some people to understand without a more vivid example to this process:</p><p><em>&lt; TODO: But I am not coming up with any elegant examples to help you at this moment ◔ ‸◔ , sorry! ></em></p><p>Essentially, yes, I do enjoy the process of tearing down whatever stuff in my hand to see what can it do in different states.
-Quoting Kirill, &ldquo;You like breaking up things.&rdquo; Obviously it does not only apply to Computer Security,
+```
+It may be hard for some people to understand without a more vivid example to this process:
+*< TODO: But I am not coming up with any elegant examples to help you at this moment ◔ ‸◔ , sorry! >*
+Essentially, yes, I do enjoy the process of tearing down whatever stuff in my hand to see what can it do in different states.
+Quoting Kirill, "You like breaking up things." Obviously it does not only apply to Computer Security,
 so I totally understand that sometimes people see me as a paranoid when I start to argue against some natural,
 plain languages, questioning absolute statements, come up with ridiculous exceptions, etc. However, sorry,
 I do intrinsically thinking like that even before I have anything to do with security researches. Quoting Michel,
-&ldquo;It&rsquo;s definitely not only about computers.&rdquo;</p><p>Repurposing. Yes, a lot of the times it&rsquo;s exactly to repurpose to an extreme, and a lot of the rest are looking for minorities in sets: people always say that I&rsquo;m somewhat &ldquo;general purpose edge cases generator&rdquo; when it comes to poll option designing.</p><p>There are some thoughts from the defense side but much less that I would like to cover. Think this is enough for today.</p><p><em>&lt; TODO: I&rsquo;ll call this article WIP, but probably I will never come back to update ></em></p><p>&ndash;
-Nicholas Wang</p></div></article></main><script type=text/javascript src=/js/viz.js></script><script type=text/javascript>(function(){var e="language-viz-";Array.prototype.forEach.call(document.querySelectorAll("[class^="+e+"]"),function(t){t.getAttribute("class").split(" ").forEach(function(t){t.startsWith(e)&&(n=t.substr(e.length))});var n,s=(new DOMParser).parseFromString(Viz(t.innerText,{format:"svg",engine:n}),"image/svg+xml");t.parentNode.insertBefore(s.documentElement,t),t.parentNode.setAttribute("class","svg"),t.style.display="none"})})()</script><aside><div><div><h3>Latest Articles</h3></div><div><ul class=article-list><li>Mar 10, 2023: <a href=/articles/security-mindset/>Security Mindset: or say "Engineering Engineering"</a></li><li>Feb 23, 2021: <a href=/articles/helloworld/>Out with the old, in with the new!</a></li></ul></div></div></aside><footer><br><hr><span>&copy; 2024 <a href=https://nicholas.wang/><b>Chenkai (Nicholas) Wang</b></a> || Find me with [
+"It's definitely not only about computers."
+Repurposing. Yes, a lot of the times it's exactly to repurpose to an extreme, and a lot of the rest are looking for minorities in sets: people always say that I'm somewhat "general purpose edge cases generator" when it comes to poll option designing.
+There are some thoughts from the defense side but much less that I would like to cover. Think this is enough for today.
+*< TODO: I'll call this article WIP, but probably I will never come back to update >*
+--
+Nicholas Wang</div></article></main><script type=text/javascript src=/js/viz.js></script><script type=text/javascript>(function(){var e="language-viz-";Array.prototype.forEach.call(document.querySelectorAll("[class^="+e+"]"),function(t){t.getAttribute("class").split(" ").forEach(function(t){t.startsWith(e)&&(n=t.substr(e.length))});var n,s=(new DOMParser).parseFromString(Viz(t.innerText,{format:"svg",engine:n}),"image/svg+xml");t.parentNode.insertBefore(s.documentElement,t),t.parentNode.setAttribute("class","svg"),t.style.display="none"})})()</script><aside><div><div><h3>Latest Articles</h3></div><div><ul class=article-list><li>Mar 10, 2023: <a href=/articles/security-mindset/>Security Mindset: or say "Engineering Engineering"</a></li><li>Feb 23, 2021: <a href=/articles/helloworld/>Out with the old, in with the new!</a></li></ul></div></div></aside><footer><br><hr><span>&copy; 2024 <a href=https://nicholas.wang/><b>Chenkai (Nicholas) Wang</b></a> || Find me with [
 <a href=https://github.com/nicholascw><b>GitHub</b></a>
 <a href=https://matrix.to/#/@nicholascw:matrix.org><b>Matrix</b></a>
 <a href=mailto:i@nw.ci><b>E-mail</b></a> ]</span></footer></body></html>
