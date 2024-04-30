@@ -21,6 +21,8 @@ I am a first-year PhD student in [Computer Science](https://cs.illinois.edu) dep
 
 > Master of Science in *Computer Science*
 
+> Thesis: [VeriSMS: A message verification system for inclusive and trusted patient outreach](https://www.ideals.illinois.edu/items/127803)
+
 > August, 2021 - May, 2023
 
 
