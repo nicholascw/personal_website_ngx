@@ -15,9 +15,7 @@ Tokyo, and Los Angeles. WireGuard over clearnet IPv4 is required for tunneling. 
 BGP sessions are multi-protocol BGP on IPv6 Link-Local address <strong>with Extended Next Hop DISABLED</strong>.</p><p>For peering, please contact me with:</p><ul><li>Email: me[at]nicho1as[dot]wang</li></ul><p>and configure your endpoint <a href=#x04---peering-information>as follows</a>.</p><hr><h2 id=0x03---services-running-on-nicholascw-network>0x03 - Services running on NICHOLASCW Network</h2><p>DNS zones: <code>nico.dn42</code>, <code>nicholascw.dn42</code>, <code>bbs.dn42</code></p><p>rDNS zones: <code>172.20.233.128/26</code>, <code>fd42:1919:810::/48</code></p><p><a href=https://bbs.dn42>bbs.dn42</a> based on Flarum</p><p><a href=https://bbs.dn42/d/17-modded-116-minecraft-server>Modded Minecraft 1.16 server: mc.nico.dn42</a></p><hr><h2 id=0x04---peering-information>0x04 - Peering Information</h2><h3 id=current-pop-interconnections>Current PoP Interconnections</h3><pre tabindex=0><code class=language-viz-circo data-lang=viz-circo>graph interconnections {
 node [shape=box]
 &#34;Chicago, US&#34; -- &#34;Seattle, US&#34;;
-&#34;Tokyo, JP&#34; -- &#34;Seattle, US&#34;;
 &#34;Los Angeles, US&#34; -- &#34;Seattle, US&#34;;
-&#34;Los Angeles, US&#34; -- &#34;Tokyo, JP&#34;;
 &#34;Frankfurt, DE&#34; -- &#34;Chicago, US&#34;;
 &#34;Los Angeles, US&#34; -- &#34;Chicago, US&#34;;
 }
