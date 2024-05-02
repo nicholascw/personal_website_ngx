@@ -10,9 +10,6 @@ enableGitInfo = true
   [security.exec]
     allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$', 'pandoc']
 
-[markup]
-  defaultMarkdownHandler = 'pandoc'
-
 # Parameters
 [params]
     subtitle = ""
