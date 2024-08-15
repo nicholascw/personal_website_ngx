@@ -53,7 +53,7 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 >  Limin Yang, Zhi Chen, **<u>Chenkai Wang</u>**, Zhenning Zhang, Sushruth Booma, Phuong Cao, Constantin Adam, Alex Withers, Zbigniew Kalbarczyk, Ravishankar K. Iyer, Gang Wang
 
-> **Proceedings of The 33rd USENIX Security Symposium (USENIX Security \'24)** *August 14-16, 2024, Philadelphia, PA, USA.* [DOI: pending](404)
+> **Proceedings of The 33rd USENIX Security Symposium (USENIX Security \'24)** *August 14-16, 2024, Philadelphia, PA, USA.* [link](https://www.usenix.org/conference/usenixsecurity24/presentation/yang-limin)
 
 - [VeriSMS: A Message Verification System for Inclusive Patient Outreach against Phishing Attacks](verisms-chi24.pdf)
 
