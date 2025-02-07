@@ -53,7 +53,7 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 > Chuhan Wang, **<u>Chenkai Wang</u>**, Songyi Yang, Sophia Liu, Jianjun Chen, Haixin Duan, Gang Wang
 
-> **Proceedings of The 34th USENIX Security Symposium (USENIX Security \'25)** *August 13-15, 2024, Seattle, WA, USA.* <!--[link](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chuhan)-->
+> **Proceedings of The 34th USENIX Security Symposium (USENIX Security \'25)** *August 13-15, 2025, Seattle, WA, USA.* <!--[link](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chuhan)-->
 
 - [True Attacks, Attack Attempts, or Benign Triggers? An Empirical Measurement of Network Alerts in a Security Operations Center](ncsa-usenix24.pdf)
 
