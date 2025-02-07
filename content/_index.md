@@ -49,6 +49,12 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 # Publications
 
+- [Email Spoofing with SMTP Smuggling: How the Shared Email Infrastructures Magnify this Vulnerability](smtpsmuggling-usenix25.pdf)
+
+> Chuhan Wang, **<u>Chenkai Wang</u>**, Songyi Yang, Sophia Liu, Jianjun Chen, Haixin Duan, Gang Wang
+
+> **Proceedings of The 34th USENIX Security Symposium (USENIX Security \'25)** *August 13-15, 2024, Seattle, WA, USA.* <!--[link](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chuhan)-->
+
 - [True Attacks, Attack Attempts, or Benign Triggers? An Empirical Measurement of Network Alerts in a Security Operations Center](ncsa-usenix24.pdf)
 
 >  Limin Yang, Zhi Chen, **<u>Chenkai Wang</u>**, Zhenning Zhang, Sushruth Booma, Phuong Cao, Constantin Adam, Alex Withers, Zbigniew Kalbarczyk, Ravishankar K. Iyer, Gang Wang
