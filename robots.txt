@@ -1,1 +1,4 @@
 User-agent: *
+Allow: /
+
+Sitemap: https://nicholas.wang/sitemap.xml
