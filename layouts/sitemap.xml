@@ -25,13 +25,10 @@
 
   {{ if (findRE ".pdf$" .Name) }}
 
-    {{ printf "<url>" | safeHTML }}
-
-      {{ printf "<loc>%s%s</loc>" $.Site.BaseURL .Name | safeHTML }}
-      {{ printf "<changefreq>yearly</changefreq>" | safeHTML }}
-      {{ printf "<priority>0.3</priority>" | safeHTML }}
-
-    {{ printf "</url>" | safeHTML }}
+    <url>
+      <loc>{{ safeHTML ( printf "%s%s" $.Site.BaseURL .Name ) }}</loc>
+      <!--<lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>-->
+    </url>
 
   {{ end }}
 
