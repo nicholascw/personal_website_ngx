@@ -2,8 +2,14 @@ baseURL = "https://nicholas.wang/"
 languageCode = "en-us"
 title = "Chenkai (Nicholas) Wang"
 theme = "smol"
-
+enableRobotsTXT = true
 enableGitInfo = true
+
+[sitemap]
+  changeFreq = ''
+  disable = false
+  filename = 'sitemap.xml'
+  priority = -1
 
 [security]
   enableInlineShortcodes = true
