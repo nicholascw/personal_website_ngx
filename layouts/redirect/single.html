@@ -1,1 +1,9 @@
-{{- template "_internal/alias.html" (dict "Permalink" .Params.target) -}}
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}">
+  <head>
+    <title>{{ .Params.target }}</title>
+    <link rel="canonical" href="{{ .Params.target }}">
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ .Params.target }}">
+  </head>
+</html>
