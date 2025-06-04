@@ -13,7 +13,7 @@ I am a second-year PhD student in [Siebel School of Computing and Data Science](
 
 > ### University of Illinois at Urbana-Champaign
 
-> PhD Student in *Computer Science* (Pre-Qual)
+> PhD Student in *Computer Science*
 
 > August, 2023 -
 
@@ -53,7 +53,13 @@ Spring 2022, ECE422/CS461 [Computer Security I](https://courses.engr.illinois.ed
 
 > Chuhan Wang, **<u>Chenkai Wang</u>**, Songyi Yang, Sophia Liu, Jianjun Chen, Haixin Duan, Gang Wang
 
-> **Proceedings of The 34th USENIX Security Symposium (USENIX Security \'25)** *August 13-15, 2025, Seattle, WA, USA.* <!--[link](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chuhan)-->
+> **Proceedings of The 34th USENIX Security Symposium (USENIX Security \'25)** *August 13-15, 2025, Seattle, WA, USA.* [link](https://www.usenix.org/conference/usenixsecurity25/presentation/wang-chuhan)
+
+> ### [Can You Walk Me Through It? Explainable SMS Phishing Detection using LLM-based Agents](smishx-soups25.pdf)
+
+> Yizhu Wang, Haoyu Zhai, **<u>Chenkai Wang</u>**, Qingying Hao, Nick A. Cohen, Roopa Foulger, Jonathan A. Handler, Gang Wang
+
+> **Proceedings of The 21st USENIX Symposium on Usable Privacy and Security (SOUPS \'25)** *August 10-12, 2025, Seattle, WA, USA.* [link](https://www.usenix.org/conference/soups2025/presentation/wang)
 
 > ### [Towards Continuous Integrity Attestation and Its Challenges in Practice: A Case Study of Keylime](keylime-dsn25.pdf)
 
